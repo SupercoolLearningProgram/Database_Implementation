@@ -7,4 +7,4 @@ Input LastName that already exist in database will display the infomation ( Name
 
 Tips : connectionStrings = Server=.\SQLEXPRESS;Database=**Your Database Name**;Trusted_Connection=True; 
 
-เกิด การ เรียน รู้ !
+
