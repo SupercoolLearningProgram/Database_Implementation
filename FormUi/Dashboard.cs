@@ -11,10 +11,20 @@ using System.Windows.Forms;
 namespace FormUi
 {
     public partial class Dashboard : Form
+        
     {
+        List<Person> people = new List<Person>();
         public Dashboard()
         {
             InitializeComponent();
+            PeopleFoundListBox.DataSource = people;
+        }
+
+        private void searchButton_Click(object sender, EventArgs e)
+        {
+            DataAccess database = new DataAccess();
+            people = database.GetPeople(lastNameTextbox.Text);
+           
         }
     }
 }
