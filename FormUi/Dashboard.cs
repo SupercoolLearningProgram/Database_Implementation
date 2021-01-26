@@ -18,13 +18,16 @@ namespace FormUi
         {
             InitializeComponent();
             PeopleFoundListBox.DataSource = people;
+            PeopleFoundListBox.DisplayMember = "FullInfo";
         }
 
         private void searchButton_Click(object sender, EventArgs e)
         {
             DataAccess database = new DataAccess();
             people = database.GetPeople(lastNameTextbox.Text);
-           
+
+            PeopleFoundListBox.DataSource = people;
+            PeopleFoundListBox.DisplayMember = "FullInfo";
         }
     }
 }

@@ -41,14 +41,14 @@ namespace FormUi
             this.PeopleFoundListBox.ItemHeight = 25;
             this.PeopleFoundListBox.Location = new System.Drawing.Point(192, 256);
             this.PeopleFoundListBox.Name = "PeopleFoundListBox";
-            this.PeopleFoundListBox.Size = new System.Drawing.Size(337, 254);
+            this.PeopleFoundListBox.Size = new System.Drawing.Size(667, 254);
             this.PeopleFoundListBox.TabIndex = 0;
             // 
             // lastNameTextbox
             // 
             this.lastNameTextbox.Location = new System.Drawing.Point(314, 204);
             this.lastNameTextbox.Name = "lastNameTextbox";
-            this.lastNameTextbox.Size = new System.Drawing.Size(215, 31);
+            this.lastNameTextbox.Size = new System.Drawing.Size(545, 31);
             this.lastNameTextbox.TabIndex = 1;
             // 
             // lastNameLabel
@@ -64,7 +64,7 @@ namespace FormUi
             // 
             this.searchButton.Location = new System.Drawing.Point(192, 531);
             this.searchButton.Name = "searchButton";
-            this.searchButton.Size = new System.Drawing.Size(337, 42);
+            this.searchButton.Size = new System.Drawing.Size(667, 42);
             this.searchButton.TabIndex = 3;
             this.searchButton.Text = "Search";
             this.searchButton.UseVisualStyleBackColor = true;
@@ -74,7 +74,7 @@ namespace FormUi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(647, 585);
+            this.ClientSize = new System.Drawing.Size(1009, 585);
             this.Controls.Add(this.searchButton);
             this.Controls.Add(this.lastNameLabel);
             this.Controls.Add(this.lastNameTextbox);
