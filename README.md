@@ -1,7 +1,10 @@
 # Database_Implementation
-C#, Window Forms Application, Dapper (Packages)
-: This is another way to connecting database to C#
-: Using Dapper packages
-: Research
-ConnectionStrings= Server=localhost\MSSQLSERVER01;Database=master;Trusted_Connection=True;
+Window forms application which already connected to databases
 
+
+Input LastName that already exist in database will display the infomation ( Name , Lastname , Email , Phone number) in the ListBox to the screen.
+
+
+Tips : connectionStrings = Server=.\SQLEXPRESS;Database=**Your Database Name**;Trusted_Connection=True; 
+
+เกิด การ เรียน รู้ !
