@@ -41,7 +41,7 @@ namespace FormUi
             EmailIns.Text = "";
             PhoneIns.Text = "";
             PhoneIns.Text = "   : ";
-            EmailIns.Text = "Enter";
+            EmailIns.Text = "aDddd";
         }
     }
 }

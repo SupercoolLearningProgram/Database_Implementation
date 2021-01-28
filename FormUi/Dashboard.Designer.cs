@@ -43,17 +43,17 @@ namespace FormUi
             // PeopleFoundListBox
             // 
             this.PeopleFoundListBox.FormattingEnabled = true;
-            this.PeopleFoundListBox.ItemHeight = 25;
+            this.PeopleFoundListBox.ItemHeight = 30;
             this.PeopleFoundListBox.Location = new System.Drawing.Point(53, 86);
             this.PeopleFoundListBox.Name = "PeopleFoundListBox";
-            this.PeopleFoundListBox.Size = new System.Drawing.Size(499, 254);
+            this.PeopleFoundListBox.Size = new System.Drawing.Size(499, 244);
             this.PeopleFoundListBox.TabIndex = 0;
             // 
             // lastNameTextbox
             // 
             this.lastNameTextbox.Location = new System.Drawing.Point(64, 44);
             this.lastNameTextbox.Name = "lastNameTextbox";
-            this.lastNameTextbox.Size = new System.Drawing.Size(499, 31);
+            this.lastNameTextbox.Size = new System.Drawing.Size(499, 37);
             this.lastNameTextbox.TabIndex = 1;
             this.lastNameTextbox.Text = "Enter Lastname";
             // 
@@ -76,7 +76,7 @@ namespace FormUi
             this.notify1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.notify1.Location = new System.Drawing.Point(744, 47);
             this.notify1.Name = "notify1";
-            this.notify1.Size = new System.Drawing.Size(207, 25);
+            this.notify1.Size = new System.Drawing.Size(268, 31);
             this.notify1.TabIndex = 4;
             this.notify1.Text = "INSERT NEW USER";
             // 
@@ -84,7 +84,7 @@ namespace FormUi
             // 
             this.FirstNameIns.Location = new System.Drawing.Point(586, 114);
             this.FirstNameIns.Name = "FirstNameIns";
-            this.FirstNameIns.Size = new System.Drawing.Size(499, 31);
+            this.FirstNameIns.Size = new System.Drawing.Size(499, 37);
             this.FirstNameIns.TabIndex = 5;
             this.FirstNameIns.Text = "First Name";
             // 
@@ -92,7 +92,7 @@ namespace FormUi
             // 
             this.LastNameIns.Location = new System.Drawing.Point(586, 181);
             this.LastNameIns.Name = "LastNameIns";
-            this.LastNameIns.Size = new System.Drawing.Size(499, 31);
+            this.LastNameIns.Size = new System.Drawing.Size(499, 37);
             this.LastNameIns.TabIndex = 6;
             this.LastNameIns.Text = "Last Name";
             // 
@@ -100,7 +100,7 @@ namespace FormUi
             // 
             this.EmailIns.Location = new System.Drawing.Point(586, 245);
             this.EmailIns.Name = "EmailIns";
-            this.EmailIns.Size = new System.Drawing.Size(499, 31);
+            this.EmailIns.Size = new System.Drawing.Size(499, 37);
             this.EmailIns.TabIndex = 7;
             this.EmailIns.Text = "Email Address";
             // 
@@ -108,7 +108,7 @@ namespace FormUi
             // 
             this.PhoneIns.Location = new System.Drawing.Point(586, 309);
             this.PhoneIns.Name = "PhoneIns";
-            this.PhoneIns.Size = new System.Drawing.Size(499, 31);
+            this.PhoneIns.Size = new System.Drawing.Size(499, 37);
             this.PhoneIns.TabIndex = 8;
             this.PhoneIns.Text = "Phone Number";
             // 
@@ -125,7 +125,7 @@ namespace FormUi
             // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(1097, 471);
