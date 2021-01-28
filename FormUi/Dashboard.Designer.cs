@@ -44,11 +44,10 @@ namespace FormUi
             // 
             this.PeopleFoundListBox.FormattingEnabled = true;
             this.PeopleFoundListBox.ItemHeight = 25;
-            this.PeopleFoundListBox.Location = new System.Drawing.Point(64, 96);
+            this.PeopleFoundListBox.Location = new System.Drawing.Point(53, 86);
             this.PeopleFoundListBox.Name = "PeopleFoundListBox";
             this.PeopleFoundListBox.Size = new System.Drawing.Size(499, 254);
             this.PeopleFoundListBox.TabIndex = 0;
-            this.PeopleFoundListBox.Visible = false;
             // 
             // lastNameTextbox
             // 
@@ -61,7 +60,7 @@ namespace FormUi
             // searchButton
             // 
             this.searchButton.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.searchButton.Location = new System.Drawing.Point(64, 371);
+            this.searchButton.Location = new System.Drawing.Point(53, 371);
             this.searchButton.Name = "searchButton";
             this.searchButton.Size = new System.Drawing.Size(499, 68);
             this.searchButton.TabIndex = 3;
