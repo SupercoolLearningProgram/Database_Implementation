@@ -11,8 +11,7 @@ namespace FormUi
     {
         public static string connectedValue(string name)
         {
-            return ConfigurationManager.ConnectionStrings[name].ConnectionString;
-            
+            return ConfigurationManager.ConnectionStrings[name].ConnectionString; 
         }
     }
 }

@@ -17,6 +17,9 @@ namespace FormUi
         public Dashboard()
         {
             InitializeComponent();
+        }
+        private void UpdateFunction()
+        {
             PeopleFoundListBox.DataSource = people;
             PeopleFoundListBox.DisplayMember = "FullInfo";
         }
@@ -26,8 +29,18 @@ namespace FormUi
             DataAccess database = new DataAccess();
             people = database.GetPeople(lastNameTextbox.Text);
 
-            PeopleFoundListBox.DataSource = people;
-            PeopleFoundListBox.DisplayMember = "FullInfo";
+            UpdateFunction(); 
+        }
+
+        private void InsertButton_Click(object sender, EventArgs e)
+        {
+            DataAccess db = new DataAccess();
+            db.insertPerson(FirstNameIns.Text, LastNameIns.Text, EmailIns.Text, PhoneIns.Text);
+
+            FirstNameIns.Text = "";
+            LastNameIns.Text = "";
+            EmailIns.Text = "";
+            PhoneIns.Text = "";
         }
     }
 }
