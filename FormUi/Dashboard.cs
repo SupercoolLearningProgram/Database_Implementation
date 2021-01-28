@@ -23,7 +23,6 @@ namespace FormUi
             PeopleFoundListBox.DataSource = people;
             PeopleFoundListBox.DisplayMember = "FullInfo";
         }
-
         private void searchButton_Click(object sender, EventArgs e)
         {
             DataAccess database = new DataAccess();
@@ -41,6 +40,7 @@ namespace FormUi
             LastNameIns.Text = "";
             EmailIns.Text = "";
             PhoneIns.Text = "";
+            PhoneIns.Text = "   : ";
         }
     }
 }
